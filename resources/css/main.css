@@ -1,0 +1,18 @@
+.mainpanel
+{
+    background: #000000;
+}
+
+.rectangular_panel
+        {
+            background: #000000;
+            border: 2px green dashed;
+        }
+.circle_panel
+        {
+            background: #000000;
+            border: 2px green dashed;
+            border-left-color: black;
+            -webkit-border-radius: 0 50% 50% 0;
+        }
+

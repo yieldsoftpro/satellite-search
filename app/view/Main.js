@@ -1,48 +1,153 @@
 Ext.define("satellite-search.view.Main", {
-    extend: 'Ext.tab.Panel',
-    requires: [
-        'Ext.TitleBar',
-        'Ext.Video'
-    ],
+    extend: 'Ext.Container',
     config: {
-        tabBarPosition: 'bottom',
-
+        baseCls: 'mainpanel',
+        layout: 'vbox',
         items: [
             {
-                title: 'Welcome',
-                iconCls: 'home',
+               xtype: 'panel',
+               flex: 0.3,
+               items: [
+                       {
+                          xtype: 'panel',
+                          left: '35%',
+                          width: '35%',
+                          height: '60%',
+                          top: '35%',
+                          baseCls: 'rectangular_panel'
+                        },
+                        {
+                          xtype: 'panel',
+                          top: '54%',
+                          left: '35%',
+                          height: '23%',
+                          width: '3%',
+                          baseCls: 'circle_panel'
+                         },
+                        {
+                          xtype: 'panel',
+                          top: '10%',
+                          left: '35%',
+                          height: '20%',
+                          width: '20%',
+                          baseCls: 'rectangular_panel'
+                        },
+                        {
+                           xtype: 'panel',
+                           top: '35%',
+                           left: '63%',
+                           height: '15%',
+                           width: '7%',
+                           baseCls: 'rectangular_panel'
+                        },
+                        {
+                           xtype: 'panel',
+                           top: '49%',
+                           left: '63%',
+                           height: '15%',
+                           width: '7%',
+                           baseCls: 'rectangular_panel'
 
-                styleHtmlContent: true,
-                scrollable: true,
-
-                items: {
-                    docked: 'top',
-                    xtype: 'titlebar',
-                    title: 'Welcome to Sencha Touch 2'
-                },
-
-                html: [
-                    "You've just generated a new Sencha Touch 2 project. What you're looking at right now is the ",
-                    "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
-                    "and refresh to change what's rendered here."
-                ].join("")
+                        }
+                      ]
             },
-            {
-                title: 'Get Started',
-                iconCls: 'action',
-
+             {
+                xtype: 'panel',
+                flex: 0.3,
                 items: [
-                    {
-                        docked: 'top',
-                        xtype: 'titlebar',
-                        title: 'Getting Started'
-                    },
-                    {
-                        xtype: 'video',
-                        url: 'http://av.vimeo.com/64284/137/87347327.mp4?token=1330978144_f9b698fea38cd408d52a2393240c896c',
-                        posterUrl: 'http://b.vimeocdn.com/ts/261/062/261062119_640.jpg'
-                    }
-                ]
+                       {
+                          xtype: 'panel',
+                          left: '35%',
+                          width: '35%',
+                          height: '60%',
+                          top: '35%',
+                          baseCls: 'rectangular_panel'
+                        },
+                        {
+                          xtype: 'panel',
+                          top: '54%',
+                          left: '35%',
+                          height: '23%',
+                          width: '3%',
+                          baseCls: 'circle_panel'
+                         },
+                        {
+                          xtype: 'panel',
+                          top: '10%',
+                          left: '35%',
+                          height: '20%',
+                          width: '20%',
+                          baseCls: 'rectangular_panel'
+                        },
+                        {
+                           xtype: 'panel',
+                           top: '35%',
+                           left: '63%',
+                           height: '15%',
+                           width: '7%',
+                           baseCls: 'rectangular_panel'
+                        },
+                        {
+                           xtype: 'panel',
+                           top: '49%',
+                           left: '63%',
+                           height: '15%',
+                           width: '7%',
+                           baseCls: 'rectangular_panel'
+
+                        }
+                      ]
+             },
+             {
+                xtype: 'panel',
+                flex: 0.3,
+                items: [
+                       {
+                          xtype: 'panel',
+                          left: '35%',
+                          width: '35%',
+                          height: '60%',
+                          top: '35%',
+                          baseCls: 'rectangular_panel'
+                        },
+                        {
+                          xtype: 'panel',
+                          top: '54%',
+                          left: '35%',
+                          height: '23%',
+                          width: '3%',
+                          baseCls: 'circle_panel'
+                         },
+                        {
+                          xtype: 'panel',
+                          top: '10%',
+                          left: '35%',
+                          height: '20%',
+                          width: '20%',
+                          baseCls: 'rectangular_panel'
+                        },
+                        {
+                           xtype: 'panel',
+                           top: '35%',
+                           left: '63%',
+                           height: '15%',
+                           width: '7%',
+                           baseCls: 'rectangular_panel'
+                        },
+                        {
+                           xtype: 'panel',
+                           top: '49%',
+                           left: '63%',
+                           height: '15%',
+                           width: '7%',
+                           baseCls: 'rectangular_panel'
+
+                        }
+                      ]
+             },
+            {
+                    flex: 0.1,
+                    xtype: 'panel'
             }
         ]
     }
