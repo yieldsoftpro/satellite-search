@@ -1,3 +1,4 @@
+//test comment
 Ext.application({
     name: 'satellite-search',
 
