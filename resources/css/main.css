@@ -1,18 +1,53 @@
 .mainpanel
-{
-    background: #000000;
-}
+         {
+             background: #000000;
+         }
 
 .rectangular_panel
-        {
-            background: #000000;
-            border: 2px green dashed;
-        }
+                 {
+                     background: #000000;
+                     border: 2px green dashed;
+                 }
 .circle_panel
-        {
-            background: #000000;
-            border: 2px green dashed;
-            border-left-color: black;
-            -webkit-border-radius: 0 50% 50% 0;
-        }
-
+                 {
+                     background: #000000;
+                     border: 2px green dashed;
+                     border-left-color: black;
+                     -webkit-border-radius: 0 50% 50% 0;
+                 }
+.search_panel
+                 {
+                     background: #000000;
+                     border: 2px green dashed;
+                     -webkit-border-radius: 50%;
+                 }
+.black_panel
+                 {
+                     background: #000000;
+                 }
+.label_panel
+                 {
+                     color: #FFFFFF;
+                     font-size: bold 90%;
+                     background: #000000;
+                 }
+.textfield
+                 {
+                   color: #FFFFFF;
+                   background: #000000;
+                 }
+.textfield_input
+                 {
+                   color: #FFFFFF;
+                 }
+.html_content
+                 {
+                   color: #FFFFFF;
+                   padding-top: 2%;
+                   padding-left: 5%;
+                 }
+.button_image
+                 {
+                     height: 100%;
+                     width: 100%;
+                 }
