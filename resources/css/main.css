@@ -28,7 +28,11 @@
 .label_panel
                  {
                      color: #FFFFFF;
+<<<<<<< HEAD
                      font-size: bold 90%;
+=======
+                     font-size: 90%;
+>>>>>>> 29257bb79c41d783ce9bdfd880d68cc5b80a82df
                      background: #000000;
                  }
 .textfield
@@ -38,6 +42,7 @@
                  }
 .textfield_input
                  {
+<<<<<<< HEAD
                    color: #FFFFFF;
                  }
 .html_content
@@ -51,3 +56,8 @@
                      height: 100%;
                      width: 100%;
                  }
+=======
+
+                   color: #FFFFFF;
+                 }
+>>>>>>> 29257bb79c41d783ce9bdfd880d68cc5b80a82df
