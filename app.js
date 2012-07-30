@@ -1,4 +1,4 @@
-//test comment
+//test comment changed
 Ext.application({
     name: 'satellite-search',
 
