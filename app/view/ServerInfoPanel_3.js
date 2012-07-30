@@ -1,7 +1,7 @@
-Ext.define("satellite-search.view.ServerInfoPanel_1", {
+Ext.define("satellite-search.view.ServerInfoPanel_3", {
       extend: 'Ext.Panel',
-      id: 'serverInfoPanel_1',
-      xtype: 'serverInfoPanel_1',
+      id: 'serverInfoPanel_3',
+      xtype: 'serverInfoPanel_3',
       config:{
         items:[
                 {
@@ -13,12 +13,12 @@ Ext.define("satellite-search.view.ServerInfoPanel_1", {
                     baseCls: 'rectangular_panel',
                     styleHtmlContent : true,
                     styleHtmlCls : 'html_content',
-                    html: "<img src=\"resources/Fotos/star_image.jpg\">",
+                    html: "<img src=\"resources/Fotos/computer_image.jpg\">",
                     items:[{
                              xtype: 'panel',
                              top: '30%',
                              left: '20%',
-                             html: "MOST VOTED",
+                             html: "FEATURED SERVERS",
                              baseCls: 'label_panel'
                           }]
                 },
@@ -50,7 +50,7 @@ Ext.define("satellite-search.view.ServerInfoPanel_1", {
                           },
                           {
                            xtype: 'label',
-                           html: 'In God We Trust (High Five)',
+                           html: 'L2Asylum',
                            top: '50%',
                            left: '19%',
                            baseCls: 'label_panel'
